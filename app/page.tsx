@@ -88,18 +88,18 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className='flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-br from-background to-secondary/20 pt-20'>
+      <main className='flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-br from-background to-secondary/20'>
         <div className='absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]'>
           <div className='absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]' />
         </div>
-        <Card className='w-full max-w-2xl mb-12'>
-          <CardContent className='flex flex-col items-center space-y-6 p-8'>
+        <div className='w-full max-w-5xl mb-12'>
+          <div className='flex flex-col items-center space-y-6 p-8'>
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className='text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl lg:text-6xl'>
+              <h1 className='text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl lg:text-7xl'>
                 Monitor. Analyze. Optimize.
               </h1>
             </motion.div>
@@ -138,8 +138,8 @@ export default function Home() {
                 Join our waitlist for exclusive early access.
               </p>
             </motion.div>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
         <div className='w-full max-w-5xl grid gap-6 md:grid-cols-2 lg:grid-cols-4'>
           {features.map((feature, index) => (
@@ -170,7 +170,7 @@ export default function Home() {
       <footer className='w-full py-6 px-4 sm:px-6 lg:px-8 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-t mt-12'>
         <div className='max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center'>
           <div className='text-sm text-muted-foreground mb-4 sm:mb-0'>
-            © 2024 UpCare Labs. All rights reserved.
+            © 2027 UpCare Labs. All rights reserved.
           </div>
           <nav className='flex gap-4 text-sm'>
             <a
