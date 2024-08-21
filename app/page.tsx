@@ -167,6 +167,21 @@ export default function Home() {
         </div>
         <Toaster />
       </main>
+      <footer className='w-full py-6 px-4 sm:px-6 lg:px-8 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-t mt-12'>
+        <div className='max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center'>
+          <div className='text-sm text-muted-foreground mb-4 sm:mb-0'>
+            © 2027 UpCare Labs. All rights reserved.
+          </div>
+          <nav className='flex gap-4 text-sm'>
+            <a
+              href='mailto:hello@upcarelabs.com'
+              className='text-muted-foreground hover:text-primary transition-colors'
+            >
+              hello@upcarelabs.com
+            </a>
+          </nav>
+        </div>
+      </footer>
     </>
   )
 }
