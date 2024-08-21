@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'UpCare - The next generation for website monitoring.',
-  description: 'UpCare - Status, Analytics, Security, More ...',
+  description: 'UpCare - The next generation for website monitoring. Status, Analytics, Security, More ...',
 }
 
 export default function RootLayout({
