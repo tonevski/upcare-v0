@@ -88,7 +88,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className='flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-br from-background to-secondary/20'>
+      <main className='flex min-h-screen flex-col items-center justify-center p-4 bg-gradient-to-br from-background to-secondary/20 pt-20'>
         <div className='absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]'>
           <div className='absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]' />
         </div>
@@ -99,7 +99,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className='text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl lg:text-7xl'>
+             <h1 className='text-4xl font-bold tracking-tighter text-center sm:text-5xl md:text-6xl lg:text-7xl'>
                 Monitor. Analyze. Optimize.
               </h1>
             </motion.div>
