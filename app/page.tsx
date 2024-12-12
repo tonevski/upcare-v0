@@ -109,7 +109,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <p className='text-muted-foreground text-center md:text-xl'>
-                The next generation for website monitoring.
+                Website monitoring for busy professionals.
               </p>
             </motion.div>
             <motion.div
